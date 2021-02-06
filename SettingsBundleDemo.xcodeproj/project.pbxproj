@@ -13,6 +13,7 @@
 		78CC007925CF05BE0080D84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CC007725CF05BE0080D84D /* Main.storyboard */; };
 		78CC007B25CF05C10080D84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CC007A25CF05C10080D84D /* Assets.xcassets */; };
 		78CC007E25CF05C10080D84D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CC007C25CF05C10080D84D /* LaunchScreen.storyboard */; };
+		78CC008D25CF076F0080D84D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78CC008C25CF076F0080D84D /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		78CC007A25CF05C10080D84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78CC007D25CF05C10080D84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78CC007F25CF05C10080D84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78CC008C25CF076F0080D84D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		78CC007025CF05BE0080D84D /* SettingsBundleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				78CC008A25CF07540080D84D /* Settings Bundle */,
 				78CC007125CF05BE0080D84D /* AppDelegate.swift */,
 				78CC007325CF05BE0080D84D /* SceneDelegate.swift */,
 				78CC007525CF05BE0080D84D /* ViewController.swift */,
@@ -65,6 +68,22 @@
 				78CC007F25CF05C10080D84D /* Info.plist */,
 			);
 			path = SettingsBundleDemo;
+			sourceTree = "<group>";
+		};
+		78CC008A25CF07540080D84D /* Settings Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				78CC008B25CF075F0080D84D /* Debug */,
+			);
+			path = "Settings Bundle";
+			sourceTree = "<group>";
+		};
+		78CC008B25CF075F0080D84D /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				78CC008C25CF076F0080D84D /* Settings.bundle */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78CC008D25CF076F0080D84D /* Settings.bundle in Resources */,
 				78CC007E25CF05C10080D84D /* LaunchScreen.storyboard in Resources */,
 				78CC007B25CF05C10080D84D /* Assets.xcassets in Resources */,
 				78CC007925CF05BE0080D84D /* Main.storyboard in Resources */,
