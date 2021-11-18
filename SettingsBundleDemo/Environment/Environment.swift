@@ -7,10 +7,14 @@
 
 import Foundation
 
-enum Environment {
+enum Environment: String {
     case development
     case mock_server
     case production
+    
+    var name: String {
+        return self.rawValue
+    }
 }
 
 extension Environment {
@@ -25,6 +29,7 @@ extension Environment {
                 return "https://productionUrl.gr"
             }
         }
+        
     }
    
 }
